@@ -256,3 +256,31 @@ a {
     font-size: 2.75rem !important;
   }
 }
+
+@media (max-width: 480px) {
+  [data-purpose="contact-email"] {
+    width: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    min-width: 0;
+    justify-content: flex-start;
+    white-space: normal;
+  }
+
+  [data-purpose="contact-email"] span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .skill-minicards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .skill-minicards > div {
+    min-width: 0;
+  }
+
+  .skill-minicards p {
+    overflow-wrap: anywhere;
+  }
+}

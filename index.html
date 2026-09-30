@@ -19,9 +19,8 @@
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    
+
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
@@ -29,7 +28,6 @@
       rel="stylesheet"
     />
 
-    
     <script>
       tailwind.config = {
         darkMode: "class",
@@ -64,19 +62,16 @@
       };
     </script>
 
-    
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body
     class="selection:bg-brand-lime selection:text-brand-black min-h-screen blueprint-grid"
   >
     <main class="">
-      
       <section
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-12"
         data-purpose="hero-section"
       >
-        
         <div class="text-center max-w-4xl mx-auto mb-10">
           <h1
             class="text-5xl sm:text-7xl lg:text-8xl font-serif tracking-tight leading-[1.05] text-white hero-headline"
@@ -95,18 +90,15 @@
           </p>
         </div>
 
-        
         <div
           class="max-w-3xl mx-auto mb-14 bg-brand-dark border border-brand-border rounded-2xl p-6 sm:p-8 relative overflow-hidden group hover-jump-zoom"
         >
-          
           <div
             class="absolute inset-0 blueprint-grid opacity-30 pointer-events-none"
           ></div>
           <div
             class="flex flex-col sm:flex-row items-center gap-8 relative z-10"
           >
-            
             <div class="relative shrink-0">
               <div
                 class="w-36 h-36 sm:w-44 sm:h-44 rounded-2xl overflow-hidden border-2 border-brand-lime/40 p-1 bg-brand-black shadow-xl"
@@ -124,7 +116,6 @@
               </div>
             </div>
 
-            
             <div class="flex-1 text-center sm:text-left space-y-3">
               <div
                 class="inline-block px-2.5 py-0.5 rounded text-xs font-mono badge-highlight"
@@ -141,7 +132,7 @@
                 en Avangenio (+2 años), Nest.js en sistemas multiagénticos (+1
                 año) y .NET Backend activo (6 meses).
               </p>
-              
+
               <div
                 class="flex flex-wrap gap-2 justify-center sm:justify-start pt-2"
               >
@@ -159,7 +150,6 @@
             </div>
           </div>
 
-          
           <div
             class="mt-8 pt-6 border-t border-brand-border flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-xs"
           >
@@ -198,7 +188,6 @@
           </div>
         </div>
 
-        
         <div class="flex flex-wrap items-center justify-center gap-4">
           <a
             class="px-6 py-3 rounded-xl bg-brand-lime text-brand-black font-mono font-bold text-sm tracking-tight hover:bg-brand-limeHover transition-all flex items-center gap-2 shadow-lg"
@@ -240,9 +229,7 @@
           </a>
         </div>
       </section>
-      
 
-      
       <section
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-brand-border"
         data-purpose="education-section"
@@ -283,7 +270,9 @@
                 estructuras de datos avanzadas y diseño de sistemas distribuidos
                 y escalables.
               </p>
-              <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4">
+              <div
+                class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 skill-minicards"
+              >
                 <div
                   class="p-3 bg-brand-black rounded-lg border border-brand-border text-center"
                 >
@@ -343,9 +332,7 @@
           </div>
         </div>
       </section>
-      
 
-      
       <section
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-brand-border"
         data-purpose="experience-section"
@@ -369,9 +356,7 @@
           </p>
         </div>
 
-        
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          
           <div
             class="bg-brand-dark border border-brand-border rounded-2xl p-6 flex flex-col justify-between hover:border-brand-borderActive transition-colors group hover-jump-zoom"
           >
@@ -415,7 +400,6 @@
             </div>
           </div>
 
-          
           <div
             class="bg-brand-dark border border-brand-border rounded-2xl p-6 flex flex-col justify-between hover:border-brand-borderActive transition-colors group hover-jump-zoom"
           >
@@ -455,7 +439,6 @@
             </div>
           </div>
 
-          
           <div
             class="bg-brand-dark border border-brand-border rounded-2xl p-6 flex flex-col justify-between hover:border-brand-borderActive transition-colors group border-brand-lime/30 hover-jump-zoom"
           >
@@ -560,7 +543,7 @@
               Proyectos Personales &amp; Pinned
             </h2>
           </div>
-          
+
           <div
             class="flex flex-wrap items-center gap-2 font-mono text-xs"
             id="project-filters"
@@ -586,12 +569,10 @@
           </div>
         </div>
 
-        
         <div
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
           id="projects-grid"
         >
-          
           <div
             class="project-card bg-brand-dark border border-brand-border hover:border-brand-borderActive p-6 rounded-2xl flex flex-col justify-between transition-all hover-jump-zoom"
             data-category="dotnet"
@@ -664,7 +645,6 @@
             </div>
           </div>
 
-          
           <div
             class="project-card bg-brand-dark border border-brand-border hover:border-brand-borderActive p-6 rounded-2xl flex flex-col justify-between transition-all hover-jump-zoom"
             data-category="fullstack"
@@ -737,7 +717,6 @@
             </div>
           </div>
 
-          
           <div
             class="project-card bg-brand-dark border border-brand-border hover:border-brand-borderActive p-6 rounded-2xl flex flex-col justify-between transition-all hover-jump-zoom"
             data-category="fullstack"
@@ -811,7 +790,6 @@
           </div>
         </div>
 
-        
         <div
           class="mt-8 bg-brand-card p-4 rounded-xl border border-brand-border flex items-center justify-between flex-wrap gap-4 text-xs font-mono hover-jump-zoom"
         >
@@ -831,9 +809,7 @@
           </a>
         </div>
       </section>
-      
 
-      
       <section
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-brand-border"
         data-purpose="tech-stack-section"
@@ -849,7 +825,6 @@
           </h2>
         </div>
         <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-          
           <div
             class="bg-brand-dark p-6 rounded-2xl border border-brand-border space-y-4 hover-jump-zoom"
           >
